@@ -25,9 +25,9 @@ App.propTypes = {
 }
 
 App.defaultProps = {
-  headline: 'I\'m so grateful for you, friend!',
+  headline: '',
   showLogos: false,
-  backgroundImage: 'https://files.outfit.io/media_library_items/349584/gratitude-bg-option1.png',
+  backgroundImage: '',
 }
 
 export default App;

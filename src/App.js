@@ -17,7 +17,7 @@ App.propTypes = {
 }
 
 App.defaultProps = {
-  headline: '',
+  headline: 'Gratitude',
   backgroundImage: '',
 }
 

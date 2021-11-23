@@ -14,9 +14,6 @@ function App({ headline, showLogos, backgroundImage }) {
 
       <h1>{headline}</h1>
 
-      <div className="shape-container">
-        <Shapes />
-      </div>
     </div>
   );
 }
@@ -28,9 +25,9 @@ App.propTypes = {
 }
 
 App.defaultProps = {
-  headline: 'I\'m so grateful for you friend!',
-  showLogos: true,
-  backgroundImage: '',
+  headline: 'I\'m so grateful for you, friend!',
+  showLogos: false,
+  backgroundImage: 'https://files.outfit.io/media_library_items/349584/gratitude-bg-option1.png',
 }
 
 export default App;
